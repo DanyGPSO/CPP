@@ -9,7 +9,7 @@ int Boucles()
 	int compteur(0);
 
 	while (ageUtilisateur < 0)
-		//Tant que ageUtilisateur est inferieur a 0 on continue
+	//Tant que ageUtilisateur est inferieur a 0 on continue
 	{
 		cout << "Quel age avez-vous ? : " << endl;
 		cin >> ageUtilisateur;
@@ -20,7 +20,7 @@ int Boucles()
 	// ------------------------------------------------------------------- //
 
 	do
-		//On execute
+	//On execute
 	{
 		cout << "Quel age avez-vous ? : " << endl;
 		cin >> ageUtilisateur;
